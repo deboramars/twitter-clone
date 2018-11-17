@@ -1,5 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './App.css'
 
-const Inicio = () => <h1> Sou Header </h1>
+class Inicio extends Component{
+        render() {
+            return(
+                <div className="Card">
+                    <h1> Inicio </h1>
+                </div>
+
+            )
+
+        }
+
+}
 
 export default Inicio;

@@ -12,29 +12,29 @@ class App extends Component {
 		return (
 			<div className="App">
 
-				<header className="App-Header">
+				<div className="App-Header">
 					<Inicio />
-				</header>
+				</div>
 
-				<header className="App-Profile">
+				<div className="App-Profile">
 					<Profile />
-				</header>
+				</div>
 
-				<header className="App-Newcard">
+				<div className="App-Newcard">
 					<NewCard />
-				</header>
+				</div>
 
-				<header className="App-Follow">
+				<div className="App-Follow">
 					<Follow />
-				</header>
+				</div>
 
-				<header className="App-Card">
+				<div className="App-Card">
 					<Card />
-				</header>
+				</div>
 
-				<header className="App-Trends">
+				<div className="App-Trends">
 					<Trends />
-				</header>
+				</div>
 				
 			</div>
 		);
